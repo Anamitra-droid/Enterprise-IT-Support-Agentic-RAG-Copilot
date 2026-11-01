@@ -1,5 +1,14 @@
 # Enterprise IT Support Agentic RAG Copilot
 
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-agentic_RAG-1C3C3C)](https://langchain-ai.github.io/langgraph/)
+
+> **An IT support copilot that answers employee questions from the company's private knowledge base first, checks its own evidence, and falls back to a web search only when the internal documents aren't good enough.** Answers cite their sources, and external results are clearly flagged.
+
+It is built with FastAPI, LangGraph, Pinecone, OpenAI and Tavily, and includes a web chat UI, document ingestion and an audit log.
+
 An end-to-end **Forward Deployed Engineer (FDE) project** that turns a notebook-style Agentic RAG workflow into a deployable internal product using **LangGraph, FastAPI, Pinecone, Groq, Tavily, HTML, CSS, and JavaScript**.
 
 ---
